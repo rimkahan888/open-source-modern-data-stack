@@ -23,7 +23,7 @@ x-superset-volumes:
   - ./docker:/app/docker
   - superset_home:/app/superset_home
   - /data/duckdb:/app/duckdb
-
+    
 version: "3.7"
 services:
   redis:
