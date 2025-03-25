@@ -45,7 +45,7 @@ services:
       - ./docker/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
     networks:
       - osmds_internal
-
+    
   superset:
     env_file: docker/.env
     image: *superset-image
