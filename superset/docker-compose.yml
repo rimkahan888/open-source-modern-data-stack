@@ -72,7 +72,7 @@ services:
       disable: true
     networks:
       - osmds_internal
-
+    
   superset-worker:
     image: *superset-image
     container_name: superset_worker
