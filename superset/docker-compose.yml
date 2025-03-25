@@ -59,7 +59,7 @@ services:
     volumes: *superset-volumes
     networks:
       - osmds_internal
-
+    
   superset-init:
     image: *superset-image
     container_name: superset_init
